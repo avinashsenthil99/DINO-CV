@@ -30,7 +30,7 @@ while True:
     cv2.imshow("video",frame)                            
     if cv2.waitKey(1) & 0xFF==27:
         break
-hello
+cam.release()
 cv2.destroyAllWindows()
 
 
